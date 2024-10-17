@@ -52,10 +52,14 @@ function display_uncropped_product($product_slug) {
     ob_start();
     ?>
     <div class="questionnaire-product">
-        <img src="<?php echo esc_url($image_url); ?>"
-             alt="<?php echo esc_attr($product->get_name()); ?>"
-             class="product-image product-image-medium">
-        <h2 class="woocommerce-loop-product__title"><?php echo esc_html($product->get_name()); ?></h2>
+        <a href="<?php echo esc_url($product->get_permalink()); ?>">
+            <img src="<?php echo esc_url($image_url); ?>"
+                 alt="<?php echo esc_attr($product->get_name()); ?>"
+                 class="product-image product-image-medium">
+        </a>
+        <a href="<?php echo esc_url($product->get_permalink()); ?>">
+            <h2 class="woocommerce-loop-product__title"><?php echo esc_html($product->get_name()); ?></h2>
+        </a>
         <span class="price"><?php echo $product->get_price_html(); ?></span>
         <a href="<?php echo esc_url($product->get_permalink()); ?>" class="button">Read more</a>
     </div>

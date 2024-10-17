@@ -133,7 +133,7 @@ const InteractiveQuestionnaire = () => {
                 node.answers.map((answer, index) =>
                     React.createElement('button', {
                         key: index,
-                        className: "w-full p-2 text-left bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors",
+                        className: "w-full p-2 text-left bg-blue-500 rounded hover:bg-blue-600 transition-colors",
                         onClick: () => handleAnswer(answer.next, answer.text)
                     }, answer.text)
                 )
@@ -162,7 +162,7 @@ const InteractiveQuestionnaire = () => {
             history.map((item, index) =>
                 React.createElement('button', {
                     key: index,
-                    className: "flex items-center text-blue-500 hover:bg-blue-600",
+                    className: "w-full flex items-center justify-between text-blue-500 hover:bg-blue-600 p-2 rounded",
                     onClick: () => goBack(index)
                 },
                     "← Go Back to: ", questionsData.questions[item.node].question,
