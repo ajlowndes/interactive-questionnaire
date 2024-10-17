@@ -1,0 +1,83 @@
+.bg-green-100 { background-color: #f0fff4; }
+.bg-blue-500 { background-color: #4299e1; }
+.bg-blue-600 { background-color: #3182ce; }
+.text-white { color: white; }
+.text-blue-500 { color: #4299e1; }
+.text-blue-600 { color: #3182ce; }
+.text-gray-600 { color: #718096; }
+.rounded { border-radius: 0.25rem; }
+.p-2 { padding: 0.5rem; }
+.p-4 { padding: 1rem; }
+.mb-2 { margin-bottom: 0.5rem; }
+.mb-4 { margin-bottom: 1rem; }
+.mb-6 { margin-bottom: 1.5rem; }
+.ml-2 { margin-left: 0.5rem; }
+.space-y-2 > * + * { margin-top: 0.5rem; }
+.w-full { width: 100%; }
+.max-w-2xl { max-width: 42rem; }
+.mx-auto { margin-left: auto; margin-right: auto; }
+.text-left { text-align: left; }
+.text-xl { font-size: 1.25rem; }
+.text-3xl { font-size: 1.875rem; }
+.font-bold { font-weight: 700; }
+.flex { display: flex; }
+.items-center { align-items: center; }
+.hover\:bg-blue-600:hover { background-color: #3182ce; }
+.hover\:text-blue-600:hover { color: #3182ce; }
+.transition-colors { transition-property: background-color, border-color, color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 150ms; }
+
+/* Questionnaire styles */
+#questionnaire-root {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Product recommendation styles */
+.questionnaire-product-recommendation {
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.questionnaire-product-recommendation .questionnaire-product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.questionnaire-product-recommendation .questionnaire-product img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.questionnaire-product-recommendation .questionnaire-product .woocommerce-loop-product__title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.questionnaire-product-recommendation .questionnaire-product .price {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+.questionnaire-product-recommendation .questionnaire-product .button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.questionnaire-product-recommendation .questionnaire-product .button:hover {
+    background-color: darkgray;
+}
