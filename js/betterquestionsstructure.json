@@ -1,0 +1,730 @@
+{
+  "metadata": {
+    "title": "",
+    "introduction": "Answer a few questions to find the right course for you."
+  },
+  "questions": {
+    "start": {
+      "question": "Do you already consider yourself a rock-climber?",
+      "answers": [
+        {
+          "text": "Yes - I already climb outdoors",
+          "next": {
+            "question": "On Ropes?",
+            "answers": [
+              {
+                "text": "Yes",
+                "next": {
+                  "question": "Can you \"Lead\" climb and belay?",
+                  "answers": [
+                    {
+                      "text": "Yes",
+                      "next": {
+                        "question": "Sport or Trad?",
+                        "answers": [
+                          {
+                            "text": "Sport",
+                            "next": {
+                              "question": "Just checking - you can already lead sport climbs OUTDOORS is that correct?",
+                              "answers": [
+                                {
+                                  "text": "Yep",
+                                  "next": {
+                                    "question": "Are you interested in learning Trad?",
+                                    "answers": [
+                                      {
+                                        "text": "Yes already!",
+                                        "next": {
+                                          "recommendation": "Why didn't you say so?! \nThe Single Pitch Trad course is for you.",
+                                          "productSlug": "spt"
+                                        }
+                                      },
+                                      {
+                                        "text": "I'd actually like to learn some rescue skills",
+                                        "next": {
+                                          "recommendation": "Sure Thing! Our rescue course is equally applicable to Sport or Trad Climbing.",
+                                          "productSlug": "er"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "text": "No I can lead-climb and belay indoors but I have only been top-roping outdoors so far",
+                                  "next": {
+                                    "question": "Do you want to learn Sport or Trad first?",
+                                    "answers": [
+                                      {
+                                        "text": "We're in Victoria and there is way more Trad here, so Trad please!",
+                                        "next": {
+                                          "recommendation": "Get Excited! \nThe Single Pitch Trad course is for you.",
+                                          "productSlug": "spt"
+                                        }
+                                      },
+                                      {
+                                        "text": "No Trad is too intimidating. I'd rather learn Sport climbing first",
+                                        "next": {
+                                          "recommendation": "Awesome! \nThe Sport Climbing (Indoor to Outdoor) Conversion course is best for you.",
+                                          "productSlug": "i2o"
+                                        }
+                                      },
+                                      {
+                                        "text": "I'd like to learn both - does the trad one cover the sport skills too?",
+                                        "next": {
+                                          "question": "No they are different sets of skills - there isn't really any crossover in the content so regardless of which order you do them in I recommend doing both.",
+                                          "answers": [
+                                            {
+                                              "text": "Okay then, Sport first please",
+                                              "next": {
+                                                "recommendation": "Good choice! \nThe Sport Climbing (Indoor to Outdoor) Conversion course is best for you.",
+                                                "productSlug": "i2o"
+                                              }
+                                            },
+                                            {
+                                              "text": "Let's learn Trad then!",
+                                              "next": {
+                                                "recommendation": "Good Choice! \nThe Single Pitch Trad course is for you.",
+                                                "productSlug": "spt"
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      },
+                                      {
+                                        "text": "I'd actually like to learn some rescue skills",
+                                        "next": {
+                                          "recommendation": "I usually recommend doing some outdoor lead-climbing before the rescue skills course, but since you can lead I'm not going to deny you a place on the rescue course if you are sure. \nThe Essential Self-Rescue Skills course is super fun, you should do it.",
+                                          "productSlug": "er"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "text": "Trad",
+                            "next": {
+                              "question": "Do you know how to climb Sport Climbs as well?",
+                              "answers": [
+                                {
+                                  "text": "Yep I'm happy with my skills there",
+                                  "next": {
+                                    "question": "Alright so you already climb Trad. Single or Multi-Pitch?",
+                                    "answers": [
+                                      {
+                                        "text": "Single Pitch only",
+                                        "next": {
+                                          "question": "Which would you like to learn next?",
+                                          "answers": [
+                                            {
+                                              "text": "Multi-Pitch Trad",
+                                              "next": {
+                                                "recommendation": "Let's get higher! \nThe Multi Pitch Trad course is for you.",
+                                                "productSlug": "mpt"
+                                              }
+                                            },
+                                            {
+                                              "text": "Essential Self-Rescue Skills",
+                                              "next": {
+                                                "recommendation": "Great choice! \nThe Essential Self-Rescue Skills course is super fun, you should do it.",
+                                                "productSlug": "er"
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      },
+                                      {
+                                        "text": "I do both",
+                                        "next": {
+                                          "question": "Do you want a refresher or to upskill?",
+                                          "answers": [
+                                            {
+                                              "text": "It's been a while or I am unsure if my knowledge is sufficient",
+                                              "next": {
+                                                "recommendation": "The Multi-Pitch Trad course is a good one to help existing trad-climbers refresh their knowledge and gain confidence under the watchful eye of a guide. \nThe Multi Pitch Trad course is for you.",
+                                                "productSlug": "mpt"
+                                              }
+                                            },
+                                            {
+                                              "text": "Upskill me!",
+                                              "next": {
+                                                "question": "Have you already done the Essential Self-Rescue Skills course?",
+                                                "answers": [
+                                                  {
+                                                    "text": "Yep already done that one, it was super fun and I want MOAR!",
+                                                    "next": {
+                                                      "recommendation": "Let's get COMPLICATED! \nThe Advanced Rescue Skills course is one big mental challenge.",
+                                                      "productSlug": "ar"
+                                                    }
+                                                  },
+                                                  {
+                                                    "text": "Not yet",
+                                                    "next": {
+                                                      "recommendation": "Check it out. \nThe Essential Self-Rescue Skills course is super fun, you should do it.",
+                                                      "productSlug": "er"
+                                                    }
+                                                  }
+                                                ]
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "text": "Well no, but is a Sport Climbing Course worth doing given I already climb Trad?",
+                                  "next": {
+                                    "recommendation": "They are different sets of skills - there isn't much crossover in the content so if you have climbed Trad but are new to Sport Climbing you will still get a lot out of this one-day course. \nThe Sport Climbing (Indoor to Outdoor) Conversion Course is best for you.",
+                                    "productSlug": "i2o"
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "Yes but I am still afraid/unsure of myself",
+                      "next": {
+                        "recommendation": "Join us during the second 3-hour session of any indoor Learn-to-Lead course. It is the \"Falling Clinic\" and will sharpen your skills and get rid of your fear for good!",
+                        "productSlug": "fc"
+                      }
+                    },
+                    {
+                      "text": "No",
+                      "next": {
+                        "question": "Lead-climbing and belaying is a great stepping stone to leading on outdoor rock, and doing this indoor course first is usually the best way to teach, learn and practice.",
+                        "answers": [
+                          {
+                            "text": "Great - Let's do that!",
+                            "next": {
+                              "recommendation": "Awesome! \nThe Indoor Learn-to-Lead course is for you.",
+                              "productSlug": "ltl"
+                            }
+                          },
+                          {
+                            "text": "It looks way too scary for me.",
+                            "next": {
+                              "recommendation": "Maybe later on then. \nThe Top-Rope Anchors and Abseiling course is likely right up your alley.",
+                              "productSlug": "tr"
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "Is that different from \"Top-Rope\" climbing/belaying?",
+                      "next": {
+                        "question": "Yes it is - you will see some people at rope gyms bringing their own rope and starting from the ground up, clipping into regular points as they go. It looks scary. Do you want to learn that?",
+                        "answers": [
+                          {
+                            "text": "Yeah!",
+                            "next": {
+                              "recommendation": "Awesome! \nThe indoor Learn-to-Lead course is for you.",
+                              "productSlug": "ltl"
+                            }
+                          },
+                          {
+                            "text": "It looks way too scary for me.",
+                            "next": {
+                              "recommendation": "Maybe later on then. \nThe Top-Rope Anchors and Abseiling course is likely right up your alley.",
+                              "productSlug": "tr"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "text": "No, just bouldering",
+                "next": {
+                  "question": "What about indoor rope climbing?",
+                  "answers": [
+                    {
+                      "text": "Oh yeah I do that too",
+                      "next": {
+                        "question": "Can you \"Lead\" climb and belay?",
+                        "answers": [
+                          {
+                            "text": "Yep",
+                            "next": {
+                              "question": "Are you interested in learning Trad?",
+                              "answers": [
+                                {
+                                  "text": "Yes already!",
+                                  "next": {
+                                    "recommendation": "Why didn't you say so?! \nThe Single Pitch Trad course is for you.",
+                                    "productSlug": "spt"
+                                  }
+                                },
+                                {
+                                  "text": "No Trad is too intimidating. I'd rather learn Sport climbing first",
+                                  "next": {
+                                    "recommendation": "Awesome! \nThe Sport Climbing (Indoor to Outdoor) Conversion course is best for you.",
+                                    "productSlug": "i2o"
+                                  }
+                                },
+                                {
+                                  "text": "I'd like to learn both - does the Trad one cover the Sport skills too?",
+                                  "next": {
+                                    "question": "No they are different sets of skills - there isn't really any crossover in the content so regardless of which order you do them in I recommend doing both.",
+                                    "answers": [
+                                      {
+                                        "text": "Okay then, Sport first please",
+                                        "next": {
+                                          "recommendation": "Good choice! \nThe Sport Climbing (Indoor to Outdoor) Conversion course is best for you.",
+                                          "productSlug": "i2o"
+                                        }
+                                      },
+                                      {
+                                        "text": "Let's learn Trad then!",
+                                        "next": {
+                                          "recommendation": "Good Choice! \nThe Single Pitch Trad course is for you.",
+                                          "productSlug": "spt"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                },
+                                {
+                                  "text": "I'd actually like to learn some rescue skills",
+                                  "next": {
+                                    "recommendation": "I usually recommend doing some outdoor lead-climbing before the rescue skills course, but since you can lead I'm not going to deny you a place on the rescue course if you are sure. \nThe Essential Self-Rescue Skills course is super fun, you should do it.",
+                                    "productSlug": "er"
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "text": "Yes but I am still afraid/unsure of myself",
+                            "next": {
+                              "recommendation": "Join us during the second 3-hour session of any indoor Learn-to-Lead course. It is the \"Falling Clinic\" and will sharpen your skills and get rid of your fear for good! Cost is $60 (half of the LTL course cost). \nThe Falling Clinic is for you.",
+                              "productSlug": "fc"
+                            }
+                          },
+                          {
+                            "text": "Is that different from \"Top-Rope\" climbing/belaying?",
+                            "next": {
+                              "question": "Yes it is - you will see some people at rope gyms bringing their own rope and starting from the ground up, clipping into regular points as they go. It looks scary. Do you want to learn that?",
+                              "answers": [
+                                {
+                                  "text": "Yeah!",
+                                  "next": {
+                                    "recommendation": "Awesome! \nThe Indoor Learn-to-Lead course is for you.",
+                                    "productSlug": "ltl"
+                                  }
+                                },
+                                {
+                                  "text": "It looks way too scary for me.",
+                                  "next": {
+                                    "recommendation": "Maybe later on then. \nThe Top-Rope Anchors and Abseiling course is likely right up your alley.",
+                                    "productSlug": "tr"
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "text": "No",
+                            "next": {
+                              "question": "Do you eventually want to lead-climb outdoors?",
+                              "answers": [
+                                {
+                                  "text": "Yes",
+                                  "next": {
+                                    "question": "Lead-climbing and belaying is a great stepping stone to leading on outdoor rock, and doing this indoor course first is usually the best way to teach, learn and practice.",
+                                    "answers": [
+                                      {
+                                        "text": "Great - let's do that!",
+                                          "next": {
+                                            "recommendation": "Awesome! \nThe Indoor Learn-to-Lead course is for you.",
+                                            "productSlug": "ltl"
+                                          }
+                                        },
+                                        {
+                                          "text": "I'd rather go straight outdoors.",
+                                          "next": {
+                                            "recommendation": "Fair enough. \nThe Top-Rope Anchors and Abseiling course is likely right up your alley.",
+                                            "productSlug": "tr"
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  },
+                                  {
+                                    "text": "No I'd rather learn to top-rope first.",
+                                    "next": {
+                                      "recommendation": "Great! \nThe Top-Rope Anchors and Abseiling course is likely right up your alley.",
+                                      "productSlug": "tr"
+                                    }
+                                  },
+                                  {
+                                    "text": "Is that different from \"Top-Rope\" climbing/belaying?",
+                                    "next": {
+                                      "question": "Yes it is - you will see some people at rope gyms bringing their own rope and starting from the ground up, clipping into regular points as they go. It looks scary. Do you want to learn that?",
+                                      "answers": [
+                                        {
+                                          "text": "Yeah!",
+                                          "next": {
+                                            "recommendation": "Awesome! \nThe Indoor Learn-to-Lead course is for you.",
+                                            "productSlug": "ltl"
+                                          }
+                                        },
+                                        {
+                                          "text": "It looks way too scary for me.",
+                                          "next": {
+                                            "recommendation": "Maybe later on then. \nThe Top-Rope Anchors and Abseiling course is likely right up your alley.",
+                                            "productSlug": "tr"
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "text": "No I've never done that",
+                        "next": {
+                          "question": "Most of the skills we teach concern the use of ropes. Do you eventually want to lead-climb outdoors?",
+                          "answers": [
+                            {
+                              "text": "Yes",
+                              "next": {
+                                "question": "Lead-climbing and belaying indoors is a great stepping stone to doing the same outdoors, and is usually the best way to teach, learn and practice.",
+                                "answers": [
+                                  {
+                                    "text": "Great - let's do that!",
+                                    "next": {
+                                      "recommendation": "Awesome! \nThe Indoor Learn-to-Lead course is for you.",
+                                      "productSlug": "ltl"
+                                    }
+                                  },
+                                  {
+                                    "text": "I'd rather go straight outdoors.",
+                                    "next": {
+                                      "recommendation": "Great! \nThe Top-Rope Anchors and Abseiling course is likely right up your alley.",
+                                      "productSlug": "tr"
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "text": "No I'd rather learn to top-rope first.",
+                              "next": {
+                                "recommendation": "Great! \nThe Top-Rope Anchors and Abseiling course is likely right up your alley.",
+                                "productSlug": "tr"
+                              }
+                            },
+                            {
+                              "text": "Is that different from \"Top-Rope\" climbing/belaying?",
+                              "next": {
+                                "question": "Yes it is - you will see some people at rope gyms bringing their own rope and starting from the ground up, clipping into regular points as they go. It looks scary. Do you want to learn that?",
+                                "answers": [
+                                  {
+                                    "text": "Yeah!",
+                                    "next": {
+                                      "recommendation": "Awesome! \nThe Indoor Learn-to-Lead course is for you.",
+                                      "productSlug": "ltl"
+                                    }
+                                  },
+                                  {
+                                    "text": "It looks way too scary for me.",
+                                    "next": {
+                                      "recommendation": "Great! \nThe Top-Rope Anchors and Abseiling course is likely right up your alley.",
+                                      "productSlug": "tr"
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "text": "Yes - I climb at an indoor facility",
+            "next": {
+              "question": "On ropes?",
+              "answers": [
+                {
+                  "text": "Yes",
+                  "next": {
+                    "question": "Can you \"Lead\" climb and belay?",
+                    "answers": [
+                      {
+                        "text": "Yep",
+                        "next": {
+                          "question": "Are you interested in learning Trad?",
+                          "answers": [
+                            {
+                              "text": "Yes already!",
+                              "next": {
+                                "recommendation": "Why didn't you say so?! \nThe Single Pitch Trad course is for you.",
+                                "productSlug": "spt"
+                              }
+                            },
+                            {
+                              "text": "No Trad is too intimidating. I'd rather learn Sport climbing first",
+                              "next": {
+                                "recommendation": "Awesome! \nThe Sport Climbing (Indoor to Outdoor) Conversion course is best for you.",
+                                "productSlug": "i2o"
+                              }
+                            },
+                            {
+                              "text": "I'd like to learn both - does the Trad one cover the Sport skills too?",
+                              "next": {
+                                "question": "No they are different sets of skills - there isn't really any crossover in the content so regardless of which order you do them in I recommend doing both.",
+                                "answers": [
+                                  {
+                                    "text": "Let's learn Trad then!",
+                                    "next": {
+                                      "recommendation": "Awesome! \nThe Single Pitch Trad course is for you.",
+                                      "productSlug": "spt"
+                                    }
+                                  },
+                                  {
+                                    "text": "Okay then, Sport first please",
+                                    "next": {
+                                      "recommendation": "Awesome! \nThe Sport Climbing (Indoor to Outdoor) Conversion course is best for you.",
+                                      "productSlug": "i2o"
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "text": "I'd actually like to learn some rescue skills",
+                              "next": {
+                                "recommendation": "I usually recommend doing some outdoor lead climbing before the rescue skills course, but since you can lead I'm not going to deny you a place on the rescue course if you are sure. \nThe Essential Self-Rescue Skills course is super fun.",
+                                "productSlug": "er"
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "text": "No I've never done that",
+                        "next": {
+                          "question": "Do you eventually want to lead-climb outdoors?",
+                          "answers": [
+                            {
+                              "text": "Yes",
+                              "next": {
+                                "question": "Lead-climbing and belaying is a great stepping stone to leading on outdoor rock, and doing this indoor course first is usually the best way to teach, learn and practice.",
+                                "answers": [
+                                  {
+                                    "text": "Great - let's do that!",
+                                    "next": {
+                                      "recommendation": "Awesome! \nThe Indoor Learn-to-Lead course is for you.",
+                                      "productSlug": "ltl"
+                                    }
+                                  },
+                                  {
+                                    "text": "I'd rather go straight outdoors.",
+                                    "next": {
+                                      "recommendation": "Fair enough. \nThe Top-Rope Anchors and Abseiling course is likely right up your alley.",
+                                      "productSlug": "tr"
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "text": "No I'd rather learn to top-rope first.",
+                              "next": {
+                                "recommendation": "Great! \nThe Top-Rope Anchors and Abseiling course is likely right up your alley.",
+                                "productSlug": "tr"
+                              }
+                            },
+                            {
+                              "text": "Is that different from \"Top-Rope\" climbing/belaying?",
+                              "next": {
+                                "question": "Yes it is - you will see some people at rope gyms bringing their own rope and starting from the ground up, clipping into regular points as they go. It looks scary. Do you want to learn that?",
+                                "answers": [
+                                  {
+                                    "text": "Yeah!",
+                                    "next": {
+                                      "recommendation": "Awesome! \nThe Indoor Learn-to-Lead course is for you.",
+                                      "productSlug": "ltl"
+                                    }
+                                  },
+                                  {
+                                    "text": "It looks way too scary for me.",
+                                    "next": {
+                                      "recommendation": "Maybe later on then. \nThe Top-Rope Anchors and Abseiling course is likely right up your alley.",
+                                      "productSlug": "tr"
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "text": "Is that different from \"Top-Rope\" climbing/belaying?",
+                        "next": {
+                          "question": "Yes it is - you will see some people at rope gyms bringing their own rope and starting from the ground up, clipping into regular points as they go. It looks scary. Do you want to learn that?",
+                          "answers": [
+                            {
+                              "text": "Yeah!",
+                              "next": {
+                                "recommendation": "Awesome! \nThe Indoor Learn-to-Lead course is for you.",
+                                "productSlug": "ltl"
+                              }
+                            },
+                            {
+                              "text": "It looks way too scary for me.",
+                              "next": {
+                                "recommendation": "Maybe later on then. \nThe Top-Rope Anchors and Abseiling course is likely right up your alley.",
+                                "productSlug": "tr"
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "text": "Yes but I am still afraid/unsure of myself",
+                        "next": {
+                          "recommendation": "Join us during the second 3-hour session of any indoor Learn-to-Lead course. It is the \"Falling Clinic\" and will sharpen your skills and get rid of your fear for good! Cost is $60 (half of the LTL course cost). \nThe Falling Clinic is for you.",
+                          "productSlug": "fc"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "text": "No it is a bouldering facility",
+                  "next": {
+                    "question": "Most of the skills we teach concern the use of ropes. Do you eventually want to lead-climb outdoors?",
+                    "answers": [
+                      {
+                        "text": "Yes",
+                        "next": {
+                          "question": "Lead-climbing and belaying indoors is a great stepping stone to doing the same outdoors, and is usually the best way to teach, learn and practice.",
+                          "answers": [
+                            {
+                              "text": "Great - let's do that!",
+                              "next": {
+                                "recommendation": "Awesome! \nThe Indoor Learn-to-Lead course is for you.",
+                                "productSlug": "ltl"
+                              }
+                            },
+                            {
+                              "text": "I'd rather go straight outdoors.",
+                              "next": {
+                                "recommendation": "Great! \nThe Top-Rope Anchors and Abseiling course is likely right up your alley.",
+                                "productSlug": "tr"
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "text": "No I'd rather learn to top-rope first.",
+                        "next": {
+                          "recommendation": "Great! \nThe Top-Rope Anchors and Abseiling course is likely right up your alley.",
+                          "productSlug": "tr"
+                        }
+                      },
+                      {
+                        "text": "Is that different from \"Top-Rope\" climbing/belaying?",
+                        "next": {
+                          "question": "Yes it is - you will see some people at rope gyms bringing their own rope and starting from the ground up, clipping into regular points as they go. It looks scary. Do you want to learn that?",
+                          "answers": [
+                            {
+                              "text": "Yeah!",
+                              "next": {
+                                "recommendation": "Awesome! \nThe Indoor Learn-to-Lead course is for you.",
+                                "productSlug": "ltl"
+                              }
+                            },
+                            {
+                              "text": "It looks way too scary for me.",
+                              "next": {
+                                "recommendation": "Maybe later on then. \nThe Top-Rope Anchors and Abseiling course is likely right up your alley.",
+                                "productSlug": "tr"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "text": "No/Unsure/NA",
+            "next": {
+              "question": "Are you looking to try indoor climbing before outdoor?",
+              "answers": [
+                {
+                  "text": "Yes please!",
+                  "next": {
+                    "recommendation": "Melbourne Climbing School does not have an indoor climbing facility - we are an outdoor \"real rock\" service-based business. Check out one of Victoria's excellent indoor climbing gyms: List of Victoria's Indoor Climbing Gyms",
+                    "alternativeLink": "/locations"
+                  }
+                },
+                {
+                  "text": "No I am more keen to head outdoors",
+                  "next": {
+                    "question": "I am happy to organise a guided session for you. Does that sound like what you want?",
+                    "answers": [
+                      {
+                        "text": "Yes but it isn't for me, do you have vouchers?",
+                        "next": {
+                          "recommendation": "We sure do! Please shoot me your from/to and message for the recipient details and I'll draw one up for you. Prices are the same as guiding prices. Contact Page",
+                          "alternativeLink": "/contact"
+                        }
+                      },
+                      {
+                        "text": "Yes it is a group of friends/family or it is for me on my own",
+                        "next": {
+                          "recommendation": "Sure thing! Contact me and we'll arrange a time/place. Check out the Guiding page. Group guiding",
+                          "alternativeLink": "/contact"
+                        }
+                      },
+                      {
+                        "text": "Actually I am a parent and I want to learn simple rope setups so I can take my kids out rock-climbing.",
+                        "next": {
+                          "recommendation": "I get this one a lot - the Top-Rope Anchors and Abseiling two-day course is a great one for you (the adult) to attend and learn to set up ropes and competently manage your dependents. Note that true guiding (getting paid for the service, having responsibility for groups of dependents) still requires a lot more training, but this is a good starting point if you want to just keep yourself and your kids safe while enjoying the outdoors. \nThe Top-Rope Anchors and Abseiling course is likely right up your alley.",
+                        "productSlug": "tr"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "text": "I actually want to learn to lead-belay only (e.g. to belay my partner/kid/pet)",
+                "next": {
+                  "recommendation": "Great! Around 70% of the Indoor Learn-to-Lead course is belaying - it's a skill a lot like riding a bike, in that it takes some time and feel before you get it right and can be confident you are doing it well. I still recommend doing the whole 6 hours even if you don't plan to climb (we don't make people do anything they don't wanna). \nThe Indoor Learn-to-Lead course is for you.",
+                  "productSlug": "ltl"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
