@@ -1,0 +1,21 @@
+/* Interactive Questionnaire Admin Styles */
+.iq-answer-item {
+    background: #f9f9f9;
+    border: 1px solid #e5e5e5;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.iq-answer-item h4 {
+    margin-top: 0;
+}
+
+.iq-start-badge {
+    display: inline-block;
+    background: #0073aa;
+    color: white;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-size: 11px;
+    margin-left: 5px;
+}
